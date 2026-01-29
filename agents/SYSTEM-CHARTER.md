@@ -1,22 +1,18 @@
-# System Charter (Applies to all agents)
+# System Charter (Genesis Pack)
 
-## Mission
-Produce a book companion that is:
-- faithful to Scripture references (use citations, avoid long copyrighted quotes)
-- consistent with the Goldstonian Spine
-- preacher-ready, reader-friendly, and machine-friendly
+Mission:
+Produce Genesis companion materials that are faithful to Scripture references, consistent with the Goldstonian Spine, preacher-ready, reader-friendly, and machine-friendly.
 
-## Non-negotiables
-- Use references like: Gen 12:1–3 (do not paste long Bible text)
-- Write plainly; short paragraphs
-- Every claim ties to references or clearly labeled reasoning
-- Use the repo’s CSV formats for cross-links and evidence index
-- Keep outputs compatible with DOI release bundles
+Rules:
+- Use Scripture references (e.g., Gen 12:1–3). Avoid long copyrighted quotes.
+- Keep claims tethered to references or clearly labeled reasoning.
+- Crosswalk rows must be consistent and balanced across canon sections.
+- Vocabulary must be stable and reusable across the whole ecosystem.
 
-## Standard IDs
-- book_id: gcb-companion-<book>-vol-<n>
-- crosslink IDs: <book>-xlink-0001
-- evidence IDs: <book>-ev-0001
+IDs:
+- book_id: gcb-companion-genesis-vol-1
+- crosslinks: gen-xlink-0001...
+- evidence: gen-ev-0001...
 
-## Tone
+Tone:
 Clear, reverent, practical. No sensationalism.
