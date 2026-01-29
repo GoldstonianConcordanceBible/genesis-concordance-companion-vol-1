@@ -1,0 +1,16 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Goldstonian Crosslink Schema",
+  "type": "object",
+  "required": ["link_id","source_book","source_passage","theme_tag","target_book","target_passage","link_type","rationale"],
+  "properties": {
+    "link_id": { "type": "string", "pattern": "^[a-z]+-xlink-[0-9]{4}$" },
+    "source_book": { "type": "string" },
+    "source_passage": { "type": "string" },
+    "theme_tag": { "type": "string" },
+    "target_book": { "type": "string" },
+    "target_passage": { "type": "string" },
+    "link_type": { "type": "string", "enum": ["echo","pattern","fulfillment","contrast","doctrine","narrative"] },
+    "rationale": { "type": "string", "minLength": 10 }
+  }
+}
