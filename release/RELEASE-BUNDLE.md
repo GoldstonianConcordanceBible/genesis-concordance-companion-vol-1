@@ -1,10 +1,7 @@
-# Release Bundle Standard (DOI-ready)
-
-## Goal
-Every GitHub Release should produce a single ZIP you can upload to Zenodo/Figshare/Dataverse.
+# Release Bundle Standard — Genesis (DOI-ready)
 
 ## Bundle name
-genesis-concordance-companion-vol-1_vX.Y.Z_release-bundle.zip
+genesis-concordance-companion-vol-1_v0.1.0_release-bundle.zip
 
 ## Include these files
 - README.md
@@ -22,11 +19,29 @@ genesis-concordance-companion-vol-1_vX.Y.Z_release-bundle.zip
 - schemas/evidence-index.schema.json
 - release/checksums.txt
 
-## Checksums
-Generate SHA256 checksums for all included files and save to `release/checksums.txt`.
-(Mac) `shasum -a 256 <file>` or use `openssl dgst -sha256 <file>`.
+## Checksums (Mac)
+Run these from repo root:
+- shasum -a 256 README.md >> release/checksums.txt
+Repeat for each file above (or write a small script later).
 
-## DOI workflow
-1. Tag release in GitHub (v0.1.0)
-2. If Zenodo is connected to the repo, Zenodo mints a DOI
-3. Upload the same ZIP to Figshare (optional mirror)
+## GitHub → Zenodo workflow
+1) Commit everything.
+2) Create a Git tag: v0.1.0
+3) Create a GitHub Release for v0.1.0
+4) Zenodo (connected to GitHub) will mint:
+   - a version DOI (for v0.1.0)
+   - a concept DOI (stable across versions)
+
+## Figshare mirror
+Upload the same ZIP as an Item in your “Genesis Companion” collection.
+Include:
+- Title: Genesis — Concordance Companion (Vol. 1) — Release Bundle v0.1.0
+- Keywords: use vocab/keywords.yml
+- Link back to the Zenodo DOI and GitHub Release page
+
+## Metadata snippet (paste-friendly)
+Title: Genesis — Concordance Companion (Vol. 1)
+Description: Spine-based companion for Genesis including manuscript, preacher toolkit, controlled vocabulary, and canon crosswalk dataset (50 links). DOI-ready release bundle for reproducible citation and indexing.
+Keywords: Genesis; Bible study; covenant; seed promise; Abrahamic covenant; image of God; providence; Joseph; discipleship; biblical theology
+Version: 0.1.0
+License: CC BY 4.0
