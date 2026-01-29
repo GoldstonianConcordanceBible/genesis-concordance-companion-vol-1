@@ -18,3 +18,23 @@ Purpose Thesis → Narrative Flow → Core Theology → Messiah Thread → Cross
 - data/crosswalks/ (cross-links dataset)
 - data/evidence/ (evidence index)
 - release/ (bundle rules + checksums)
+
+v0.1
+# Divine Companion Agents — Genesis Pack (Fully Populated)
+
+This agent pack ships with the Genesis Concordance Companion repo and is reusable across all books.
+
+It outputs:
+- companion/GENESIS-CONCORDANCE-COMPANION.md
+- companion/PREACHER-TOOLKIT-GENESIS.md
+- vocab/controlled-vocabulary.csv (50 terms)
+- vocab/keywords.yml
+- data/crosswalks/genesis-crosswalk.csv (50 crosslinks)
+- data/evidence/evidence-index.csv
+- release/RELEASE-BUNDLE.md
+- quality/QA-REPORT.md
+
+Run order (if you were generating from scratch):
+01 Spine Architect → 07 Messiah Thread → 02 Crosslinks → 03 Vocab → 04 Hard Questions → 05 Preacher → 06 Walking Rule → 08 Release → 09 QA
+
+But for Genesis: everything is already populated.
