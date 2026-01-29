@@ -1,0 +1,21 @@
+cff-version: 1.2.0
+message: "If you use this Genesis Concordance Companion, please cite it."
+title: "Genesis — Concordance Companion (Vol. 1)"
+type: dataset
+authors:
+  - family-names: "Goldston"
+    given-names: "Justin"
+    name-suffix: "PhD"
+version: 0.1.0
+date-released: 2026-01-29
+license: "CC-BY-4.0"
+repository-code: "https://github.com/GoldstonianConcordanceBible/genesis-concordance-companion-vol-1"
+keywords:
+  - Genesis
+  - Bible study
+  - concordance
+  - biblical theology
+  - covenant
+  - Messiah thread
+  - discipleship
+  - Ethiopian canon
