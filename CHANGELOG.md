@@ -1,9 +1,10 @@
 # Changelog
 
 ## [0.1.0] - 2026-01-29
-- Initial Genesis companion draft (Spine sections populated)
-- Controlled vocabulary v1 (Genesis-centered terms)
-- Cross-linking + citation standard v1
-- Starter crosswalk + evidence index CSVs
-- JSON schemas for crosslinks + evidence index
-- Release bundle instructions + checksums placeholder
+- Genesis companion manuscript populated to the Goldstonian Spine
+- Preacher Toolkit populated (8-week + 4-week Messiah Thread + small group guide)
+- Controlled vocabulary populated (50 terms)
+- Genesis crosswalk populated (50 canon cross-links)
+- Evidence index populated
+- Release bundle standard added
+- QA report added
