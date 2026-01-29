@@ -1,0 +1,15 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Goldstonian Evidence Index Schema",
+  "type": "object",
+  "required": ["evidence_id","artifact_type","title","path_or_url","related_passages","version"],
+  "properties": {
+    "evidence_id": { "type": "string" },
+    "artifact_type": { "type": "string" },
+    "title": { "type": "string" },
+    "path_or_url": { "type": "string" },
+    "related_passages": { "type": "string" },
+    "version": { "type": "string" },
+    "notes": { "type": "string" }
+  }
+}
