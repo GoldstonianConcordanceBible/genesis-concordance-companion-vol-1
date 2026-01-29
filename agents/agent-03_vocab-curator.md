@@ -1,20 +1,7 @@
-# Agent 03: Vocabulary Curator
+# Agent 03: Vocabulary Curator — Genesis (Populated)
 
-## Role
-Create the controlled vocabulary pack that powers discovery and tagging.
-
-## Outputs
+Genesis controlled vocabulary is already implemented in:
 - vocab/controlled-vocabulary.csv
-- vocab/keywords.yml (if not already)
 
-## Prompt
-You are the Vocabulary Curator. Create 25–60 vocabulary entries for <BOOK>.
-CSV columns:
-term, definition, aliases, related_terms, primary_refs, tags, notes
-
-Rules:
-- definitions: 1 sentence
-- aliases: semicolon-separated
-- tags: semicolon-separated (e.g., covenant; messiah; ethics)
-- primary_refs: short refs like Gen 3:15; Gen 12:1–3
-Return CSV only.
+Count: 50 terms
+Tags designed to reuse across the full Concordance ecosystem.
