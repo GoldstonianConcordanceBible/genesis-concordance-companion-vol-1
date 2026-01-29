@@ -1,0 +1,6 @@
+link_id,source_book,source_passage,theme_tag,target_book,target_passage,link_type,rationale
+gen-xlink-0001,Genesis,Gen 1:26–28,image_of_god,Psalm,Psa 8,echo,"Psalm 8 reflects humanity’s intended glory and stewardship"
+gen-xlink-0002,Genesis,Gen 3:15,seed_promise,Romans,Rom 16:20,doctrine,"Paul frames ultimate defeat of evil under God’s peace in the community"
+gen-xlink-0003,Genesis,Gen 12:1–3,abrahamic_covenant,Galatians,Gal 3:6–9,doctrine,"The nations-blessing promise is interpreted through Abraham’s faith"
+gen-xlink-0004,Genesis,Gen 22,testing_and_substitution,Hebrews,Heb 11:17–19,doctrine,"Faith under testing becomes a model for endurance"
+gen-xlink-0005,Genesis,Gen 50:20,providence,Acts,Acts 7:9–14,echo,"Stephen reads Joseph as providential preservation amid rejection"
