@@ -1,4 +1,4 @@
-# Agent 01: Spine Architect — Genesis (Populated)
+# Agent 01: Spine Architect - Genesis (Populated)
 
 Genesis spine outline is already implemented in:
 - companion/GENESIS-CONCORDANCE-COMPANION.md
